@@ -1,0 +1,12 @@
+{
+    "initial_raw_records": 60901,
+    "cleaning_steps": {
+        "exact_duplicates_removed": 900,
+        "null_customer_ids_removed": 1772,
+        "cancelled_invoices_removed": 1110,
+        "non_positive_qty_price_removed": 48
+    },
+    "customer_id_handling_policy": "Anonymous transactions without valid CustomerID removed to preserve referential integrity and enable accurate RFM segmentation and churn modeling.",
+    "final_cleaned_records": 57071,
+    "retention_rate_pct": 93.71
+}
